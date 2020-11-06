@@ -169,8 +169,6 @@ const init = () => {
     let radius = getRandomNumber(5, 30);
     let x = getRandomNumber(radius, innerWidth - radius);
     let y = getRandomNumber(radius, innerHeight - radius);
-    let dx = getRandomNumber(0, 4);
-    let dy = getRandomNumber(0, 4);
     let color = colors[getRandomNumber(0, colors.length)];
 
     if (i !== 0) {
